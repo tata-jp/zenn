@@ -4,7 +4,7 @@ title: "iOSのMobile Safari上で自動focusしてキーボードをせり上げ
 emoji: "📚"
 type: "tech"
 topics: ["frontend", "javascript"]
-published: false
+published: true
 ---
 ## はじめに
 iOS の Mobile Safari にて、ボタンをクリックしてモーダルを開いた瞬間にキーボードを表示させるには一工夫が必要だったのでその話をしたいと思います。
