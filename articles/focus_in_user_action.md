@@ -3,7 +3,7 @@ publication_name: "rabee"
 title: "iOSのMobile Safari上で自動focusしてキーボードをせり上げる方法"
 emoji: "📚"
 type: "tech"
-topics: ["frontend", "svelte", "javascript"]
+topics: ["frontend", "javascript"]
 published: false
 ---
 ## はじめに
@@ -24,7 +24,7 @@ button.addEventListener('click', modalOpen);
 function modalOpen() {
   // モーダルを開く処理
   // その後にモーダル内の input に focus させる処理
-}
+};
 ```
 
 ## 理由
