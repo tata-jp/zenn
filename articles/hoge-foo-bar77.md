@@ -1,4 +1,5 @@
 ---
+publication_name: "rabee"
 title: "hoge"
 emoji: "🌟"
 type: "tech" # tech: 技術記事 / idea: アイデア
