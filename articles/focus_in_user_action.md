@@ -17,7 +17,7 @@ iOS の Mobile Safari にて、モーダルを開くためのボタンをクリ�
 ## 解決策
 下記のようにボタンを **クリックした時(ユーザーのアクション)** に行うモーダルを開く処理の後にモーダル内の `input` に `focus` させることで解決できました。
 
-```
+```js
 let button = document.getElementById('modalButton');
 
 button.addEventListener('click', modalOpen);
