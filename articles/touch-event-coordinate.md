@@ -10,18 +10,21 @@ published: true
 Pull-to-Refresh を実装していたときに iOS では touch イベントで渡ってくる pageY を使って座標を取得出来ていたのに対し、 Android だと pageY の座標を取得できませんでした。
 
 ## iOS で座標が取得できていたコード
-```
+```js
 let pageY = 0;
 let touchArea = document.getElementById('touchArea');
 touchArea.addEventListener('touchstart', start);
 
 function start(event) {
   pageY = event.pageY;
+  // ios
+  console.log(pageY); // 231.2100219726562
+  // Android
   console.log(pageY); // undefined
 };
 ```
 
-上記の用に touchstart イベントで渡ってきたイベントオブジェクト内にある pageY の値を参照することで Y 座標を取得できていました。
+上記のように touchstart イベントで渡ってきたイベントオブジェクト内にある pageY の値を参照することで Y 座標を取得できていました。
 
 しかし、 Android で動作確認したところ上記の pageY の値は undefined となっていました。
 
@@ -34,15 +37,18 @@ function start(event) {
 ここでは changedTouches を使っています。
 changedTouches が配列なのは同時にタッチされたポイント（指）の数がそのまま配列になるためです。
 
-```
+```js
 let pageY = 0;
 let touchArea = document.getElementById('touchArea');
 touchArea.addEventListener('touchstart', start);
 
 function start(event) {
   pageY = event.changedTouches[0].pageY;
+  // ios
   console.log(pageY); // 231.2100219726562
-}
+  // Android
+  console.log(pageY); // 231.2100219726562
+};
 ```
 
 ちなみに他の TouchList は touches と targetTouches があります。
