@@ -3,8 +3,8 @@ publication_name: "rabee"
 title: "Android でタッチイベントの座標を取得しようとした時に pageY の値が取れなかった話"
 emoji: "📚"
 type: "tech"
-topics: ["frontend", "javascript", 'touch', Rabee]
-published: false
+topics: ["frontend", "javascript", "touch", "Rabee"]
+published: true
 ---
 ## はじめに
 Pull-to-Refresh を実装していたときに iOS では touch イベントで渡ってくる pageY を使って座標を取得出来ていたのに対し、 Android だと pageY の座標を取得できませんでした。
