@@ -1,6 +1,6 @@
 ---
 publication_name: "rabee"
-title: "reduce を使って配列の合計を出してみた"
+title: "reduce を使って配列の値の合計値を出してみた"
 emoji: "🌟"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["frontend", "javascript", "reduce", "Rabee"]
