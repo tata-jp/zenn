@@ -4,7 +4,7 @@ title: "reduce を使って配列の値の合計値を出してみた"
 emoji: "🌟"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["frontend", "javascript", "reduce", "Rabee"]
-published: false
+published: true
 ---
 ## はじめに
 配列にある値の合計値を取得したいという時によく for 文や forEach メソッドで値を取得していましたが、reduceメソッドを使ってスマートに取得できることを学んだので今回紹介したいと思います。
