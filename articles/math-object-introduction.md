@@ -59,6 +59,8 @@ Math.min(1, 3, 5, 7);
 
 https://qiita.com/mod_poppo/items/f3fcbc673526c84b9387
 
+![image.png](/images/image.png)
+
 ```js
 let nums = [1, 3, 5, 7];
 
