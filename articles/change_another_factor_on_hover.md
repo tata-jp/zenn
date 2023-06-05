@@ -28,14 +28,14 @@ hoverする要素(親要素):hover 変化させたい要素(子要素) {
 ```css
 /*css*/
 .hover-trigger:hover .hover-blue {
-  background-color: blue;
+  background-color: #87ceeb;
 }
 ```
 
 ```html
 <!-- html -->
 <div class="hover-trigger">
-  <div class="hover-red">hoge</div>
+  <div class="hover-blue">hoge</div>
 </div>
 ```
 
@@ -51,7 +51,7 @@ hoverする要素(兄要素):hover + 変化させたい要素(弟要素) {
 ```css
 /*css*/
 .hover-trigger:hover + .hover-blue {
-  background-color: blue;
+  background-color: #87ceeb;
 }
 ```
 ```html
@@ -77,7 +77,7 @@ hoverする要素(兄要素):hover ~ 変化させたい全ての要素(弟要素
 ```css
 /*css*/
 .hover-trigger:hover ~ .hover-blue {
-  background-color: blue;
+  background-color: #87ceeb;
 }
 ```
 ```html
