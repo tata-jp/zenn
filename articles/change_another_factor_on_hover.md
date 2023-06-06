@@ -4,7 +4,7 @@ title: "要素をhoverしたときに、その他の要素を変更する方法"
 emoji: "🖱️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["frontend", "css", "html", "rabee"]
-published: false
+published: true
 ---
 ## はじめに
 hover した要素以外の子要素や兄弟要素を変化させる方法について解説したいと思います。
